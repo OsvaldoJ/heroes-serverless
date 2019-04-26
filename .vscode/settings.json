@@ -1,20 +1,11 @@
 {
   "azureFunctions.projectRuntime": "~2",
-  "azureFunctions.projectLanguage": "JavaScript",
-  "azureFunctions.templateFilter": "Verified",
+  "azureFunctions.projectLanguage": "TypeScript",
   "azureFunctions.deploySubpath": ".",
-  "azureFunctions.preDeployTask": "func: extensions install",
+  "azureFunctions.preDeployTask": "npm prune",
   "files.exclude": {
     "obj": true,
     "bin": true
   },
-  "debug.internalConsoleOptions": "neverOpen",
-
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#3399ff",
-    "activityBar.foreground": "#15202b",
-    "activityBar.inactiveForeground": "#1d3e60",
-    "statusBar.background": "#007fff",
-    "statusBar.foreground": "#e7e7e7"
-  }
+  "debug.internalConsoleOptions": "neverOpen"
 }

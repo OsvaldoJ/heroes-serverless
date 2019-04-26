@@ -6,9 +6,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": [
-        "post"
-      ],
+      "methods": ["post"],
       "route": "heroes"
     },
     {
@@ -16,5 +14,6 @@
       "direction": "out",
       "name": "res"
     }
-  ]
+  ],
+  "scriptFile": "../dist/heroes-post/index.js"
 }

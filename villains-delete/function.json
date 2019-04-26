@@ -6,8 +6,8 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": ["get"],
-      "route": "heroes"
+      "methods": ["delete"],
+      "route": "villains/{id}"
     },
     {
       "type": "http",
@@ -15,5 +15,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/heroes-get/index.js"
+  "scriptFile": "../dist/villains-delete/index.js"
 }

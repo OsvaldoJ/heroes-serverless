@@ -6,8 +6,8 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": ["get"],
-      "route": "heroes"
+      "methods": ["post"],
+      "route": "villains"
     },
     {
       "type": "http",
@@ -15,5 +15,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/heroes-get/index.js"
+  "scriptFile": "../dist/villains-post/index.js"
 }

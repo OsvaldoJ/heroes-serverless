@@ -1,5 +1,7 @@
 # heroes-serverless
 
+Azure Functions with TypeScript
+
 This project was created to help support the APIs for fundamental apps written with Vue, Angular, or React. The heroes and villains theme is used throughout the app.
 
 by [John Papa](http://twitter.com/john_papa)

@@ -7,7 +7,7 @@
       "direction": "in",
       "name": "req",
       "methods": ["get"],
-      "route": "heroes"
+      "route": "villains"
     },
     {
       "type": "http",
@@ -15,5 +15,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/heroes-get/index.js"
+  "scriptFile": "../dist/villains-get/index.js"
 }
